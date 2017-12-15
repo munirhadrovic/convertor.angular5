@@ -1,0 +1,9 @@
+How to use:
+This server runs on localhost:8081. 
+you can change the port in PORT var.
+there are 2 requests avilable:
+download_pics - will download all pics
+get_pics - send respond with all urls to pics.
+
+example for request. http://localhost:8081/download_pics?url=http://panevinonaples.com
+or : http://localhost:8081/get_pics?url=http://panevinonaples.com
